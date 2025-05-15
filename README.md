@@ -29,6 +29,7 @@ python train.py
 Hubungkan klien (misal MATLAB) ke alamat IP server dan port 5000.
 
 Kirim data batch JSON dengan format berikut:
+`````````
 
 {
   "veh_id1": {
@@ -66,15 +67,19 @@ Struktur File
 
     ```bash
     train.py — kode server Q-Learning
+    `````
 
     ```bash
     train.log — file log aktivitas server
+    `````
 
     ```bash
     metrics.csv — data telemetry dan reward per kendaraan
+    ````
 
     ```bash
     q_table.npy — file penyimpanan Q-table (otomatis dibuat dan digunakan)
+    ```````
 
 Konfigurasi
 
